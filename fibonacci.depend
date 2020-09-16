@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1600248725 source:c:\users\mahavir\documents\hrithik\fibonacci\src\fibon.c
+	"fibon.h"
+
+1600246508 c:\users\mahavir\documents\hrithik\fibonacci\inc\fibon.h
+
+1600248741 source:c:\users\mahavir\documents\hrithik\fibonacci\main.c
+	<stdio.h>
+	<math.h>
+	"fibon.h"
+
