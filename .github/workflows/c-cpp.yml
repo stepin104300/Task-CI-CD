@@ -1,0 +1,21 @@
+SRC = unity/unity.c\
+src/fibon.c\
+test/test_fibon.c\
+main.c
+
+INC = -Iunity\
+-Iinc\
+-Itest
+
+PROJECT_NAME = FIBONACCI.out
+
+$(PROJECT_NAME): $(SRC)
+	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
+
+run:$(PROJECT_NAME)
+	./${PROJECT_NAME}
+
+
+clean:
+	rm -rf $(PROJECT_NAME) 
+      run: make distcheck
